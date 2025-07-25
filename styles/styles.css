@@ -1,3 +1,16 @@
+:root {
+	/* CSS HEX */
+	--ecru: #bfb48fff;
+	--isabelline: #f2efe9ff;
+	--yinmn-blue: #4a5899ff;
+	--vista-blue: #9dacffff;
+	--black: #000501ff;
+}
+
+body {
+	font-family: "Lucida Handwriting", sans-serif;
+}
+
 nav {
 	background-color: darkblue;
 	padding: 10px;
@@ -13,7 +26,7 @@ h1 {
 	color: darkblue;
 }
 
-img {
+main img {
 	width: 150px;
 	height: auto;
 	border: 1px solid black;
@@ -22,5 +35,30 @@ img {
 }
 
 p {
-	padding: 10px;
+	padding: 0;
+}
+
+main {
+	width: 840px;
+}
+
+aside {
+	width: 150px;
+	margin: 10px;
+	border: 2px solid var(--yinmn-blue);
+	padding: 20px;
+	background-color: var(--ecru);
+	color: var(--black);
+	text-align: center;
+}
+
+aside img {
+	width: 200px;
+	height: auto;
+}
+
+footer {
+	margin-top: 100px;
+	border-top: 1px solid var(--yinmn-blue);
+	text-align: center;
 }
