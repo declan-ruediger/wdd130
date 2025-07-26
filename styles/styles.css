@@ -1,10 +1,12 @@
 :root {
-	/* CSS HEX */
 	--ecru: #bfb48fff;
 	--isabelline: #f2efe9ff;
 	--yinmn-blue: #4a5899ff;
 	--vista-blue: #9dacffff;
 	--black: #000501ff;
+
+	--dark-background-color: var(--yinmn-blue);
+	--light-background-color: var(--ecru);
 }
 
 body {
@@ -12,7 +14,7 @@ body {
 }
 
 nav {
-	background-color: darkblue;
+	background-color: var(--dark-background-color);
 	padding: 10px;
 }
 
@@ -23,13 +25,13 @@ nav a {
 }
 
 h1 {
-	color: darkblue;
+	color: var(--dark-background-color);
 }
 
 main img {
 	width: 150px;
 	height: auto;
-	border: 1px solid black;
+	border: 1px solid var(--black);
 	padding: 2px;
 	box-shadow: 0 0 30px gray;
 }
@@ -45,9 +47,9 @@ main {
 aside {
 	width: 150px;
 	margin: 10px;
-	border: 2px solid var(--yinmn-blue);
+	border: 2px solid var(--dark-background-color);
 	padding: 20px;
-	background-color: var(--ecru);
+	background-color: var(--light-background-color);
 	color: var(--black);
 	text-align: center;
 }
@@ -59,6 +61,6 @@ aside img {
 
 footer {
 	margin-top: 100px;
-	border-top: 1px solid var(--yinmn-blue);
+	border-top: 1px solid var(--dark-background-color);
 	text-align: center;
 }
