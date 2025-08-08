@@ -48,6 +48,35 @@ nav, p, section, article {
     text-decoration: none;
 }
 
+header {
+	display: grid;
+	--height: 100px;
+	grid-template: var(--height) / var(--height) 1fr
+}
+
+header img {
+	width: auto;
+	height: 100%;
+	display: inline;
+}
+
+header nav {
+	background-color: var(--primary-color);
+	padding: 10px;
+	margin: 0;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+header nav a {
+	color: white;
+	display: inline;
+	padding: 10px 20px;
+	font-size: 20px;
+	text-decoration: none;
+}
+
 div.hero {
 	position: relative;
 }
@@ -82,23 +111,6 @@ div.hero article {
 div.hero article img {
 	float: right;
 	width: 150px;
-}
-
-header img {
-	width: 10%;
-	display: inline;
-}
-
-nav {
-	background-color: var(--primary-color);
-	padding: 10px;
-	display: inline;
-}
-
-nav a {
-	color: white;
-	display: inline;
-	padding: 20px;
 }
 
 footer {
