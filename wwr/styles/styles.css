@@ -22,14 +22,20 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: var(--heading-font);
 }
 
+header img {
+	width: 10%;
+	display: inline;
+}
+
 nav {
 	background-color: var(--primary-color);
 	padding: 10px;
+	display: inline;
 }
 
 nav a {
 	color: white;
-	display: block;
+	display: inline;
 	padding: 20px;
 }
 
@@ -72,4 +78,12 @@ footer {
 	margin-top: 100px;
 	border-top: 1px solid var(--primary-color);
 	text-align: center;
+}
+
+footer nav {
+	all: initial;
+}
+
+footer nav a img {
+	height: 40px;
 }
