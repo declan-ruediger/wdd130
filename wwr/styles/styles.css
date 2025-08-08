@@ -5,12 +5,12 @@
 	--vista-blue: 	#9dacffff;
 	--black: 		#000501ff;
 
-	--dark-background-color: 	var(--yinmn-blue);
-	--light-background-color: 	var(--ecru);
-	--accent1-color: 			var(--isabelline);
-	--accent2-color: 			var(var(--vista-blue));
+	--primary-color: 	var(--yinmn-blue);
+	--secondary-color: 	var(--ecru);
+	--accent1-color: 	var(--isabelline);
+	--accent2-color: 	var(--vista-blue);
 
-	--heading-font: "Fredoka", system-ui;
+	--heading-font: "Chewy", system-ui;
 	--text-font: "Fredoka", sans-serif;
 }
 
@@ -23,7 +23,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 nav {
-	background-color: var(--dark-background-color);
+	background-color: var(--primary-color);
 	padding: 10px;
 }
 
@@ -34,7 +34,7 @@ nav a {
 }
 
 h1 {
-	color: var(--dark-background-color);
+	color: var(--primary-color);
 }
 
 main img {
@@ -56,9 +56,9 @@ main {
 aside {
 	width: 150px;
 	margin: 10px;
-	border: 2px solid var(--dark-background-color);
+	border: 2px solid var(--primary-color);
 	padding: 20px;
-	background-color: var(--light-background-color);
+	background-color: var(--secondary-color);
 	color: var(--black);
 	text-align: center;
 }
@@ -70,6 +70,6 @@ aside img {
 
 footer {
 	margin-top: 100px;
-	border-top: 1px solid var(--dark-background-color);
+	border-top: 1px solid var(--primary-color);
 	text-align: center;
 }
