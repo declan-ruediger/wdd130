@@ -101,29 +101,10 @@ nav a {
 	padding: 20px;
 }
 
-aside {
-	width: 150px;
-	margin: 10px;
-	border: 2px solid var(--primary-color);
-	padding: 20px;
-	background-color: var(--secondary-color);
-	color: var(--black);
-	text-align: center;
-}
-
-aside img {
-	width: 200px;
-	height: auto;
-}
-
 footer {
 	margin-top: 100px;
 	border-top: 1px solid var(--primary-color);
 	text-align: center;
-}
-
-footer nav {
-	all: initial;
 }
 
 footer nav a img {
