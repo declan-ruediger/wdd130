@@ -113,6 +113,19 @@ div.hero article img {
 	width: 150px;
 }
 
+section.history {
+	position: relative;
+}
+
+section.history h2 {
+	text-align: center;
+}
+
+section.history img {
+	position: inline;
+	width: 30%;
+}
+
 footer {
 	margin-top: 100px;
 	border-top: 1px solid var(--primary-color);
