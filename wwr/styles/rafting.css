@@ -115,23 +115,46 @@ div.hero article img {
 
 section.history {
 	position: relative;
+	/* display: flex; */
 }
 
 section.history h2 {
 	text-align: center;
+	float: center;
 }
 
-section.history img {
-	position: inline;
-	width: 30%;
+section.history div {
+	display: grid;
+	grid-template: 1fr / 2fr 1fr 2fr
+}
+
+section.history div img {
+	/* position: inline; */
+	width: 300px;
+	height: auto;
+
+	margin: 16px;
+	padding: 8px;
 }
 
 footer {
 	margin-top: 100px;
 	border-top: 1px solid var(--primary-color);
 	text-align: center;
+
+	height: 70px;
+
+	background-color: var(--moonstone);
+	
+	/* display: grid;
+	grid-template-columns: 1fr repeat(3, 40px) */
 }
 
-footer nav a img {
+footer nav.socialmedia {
+	float: right;
+	padding: 0;
+}
+
+footer nav.socialmedia a img {
 	height: 40px;
 }
