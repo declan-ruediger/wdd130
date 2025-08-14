@@ -56,15 +56,15 @@
             <label for="name-input">First Name: </label><input required type="text" name="name" id="name-input" placeholder="First Name"><br>
             <label for="email-input">Email: </label><input required id="email-input" type="email" name="email" placeholder="Email">
             <div>
-                <span for="message_purpose">Message purpose:</span>
+                <span for="message_purpose">Message<br>Purpose:</span>
                 <span>
-                    <input type="radio" id="radio_1" name="message_purpose" value="General Inquiry"></input><label for="radio_1"> General Inquiry</label><br>
-                    <input type="radio"  id="radio_2"  name="message_purpose" value="Reservation Question" ></input><label for="radio_2"> Reservation Question</label><br>
-                    <input type="radio"    id="radio_3"  name="message_purpose" value="Website Suggestion"   ></input><label for="radio_3"> Website Suggestion</label>
+                    <input class="radio-input" type="radio" id="radio_1" name="message_purpose" value="General Inquiry"></input><label for="radio_1"> General Inquiry</label><br>
+                    <input class="radio-input" type="radio"  id="radio_2"  name="message_purpose" value="Reservation Question" ></input><label for="radio_2"> Reservation Question</label><br>
+                    <input class="radio-input" type="radio"    id="radio_3"  name="message_purpose" value="Website Suggestion"   ></input><label for="radio_3"> Website Suggestion</label>
                 </span>
             </div>
-            <p>Message:</p>
-            <textarea name="message_text">
+            <label for="message_box">Message:</label><br>
+            <textarea name="message_text" id="message_box">
 
             </textarea>
             <br>
