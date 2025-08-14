@@ -30,13 +30,14 @@ body {
 }
 
 header, main, footer {
-  width: 840px;
+  width: 100%;
   margin: 0 auto;
 }
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: var(--heading-font);
 	color: var(--primary-color);
+	text-align: center;
 }
 
 nav, p, section, article {
@@ -50,8 +51,8 @@ nav, p, section, article {
 
 header {
 	display: grid;
-	--height: 100px;
-	grid-template: var(--height) / var(--height) 1fr
+	--nav-bar-height: 100px;
+	grid-template: var(--nav-bar-height) / var(--nav-bar-height) 1fr
 }
 
 header img {
@@ -97,15 +98,59 @@ div.contact-info div {
 }
 
 div.employee-quotes {
-	
+	margin-top: 0px;
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	/* height: 200px; */
+}
+
+div.employee-quotes span {
+	height: 200px;
+	display: inline-block;
+	--padding: 0px;
+	--margin: 5px;
+	padding: 5px;
+	margin: 20px;
+}
+
+div.employee-quotes span img {
+	height: 100%;
+	width: auto;
+	padding: var(--padding);
+	margin: var(--margin);
+}
+
+div.employee-quotes span p {
+	width: 100%;
+	text-align: center;
+	padding: var(--padding);
+	margin: var(--margin);
+}
+
+form.message-form {
+	margin: 30px;
+	padding: 20px;
+	margin-top: 50px;
+	background-color: var(--isabelline);
+	border-radius: 20px;
+	border: 2px solid var(--accent1-color)
 }
 
 form.message-form * {
 	padding: 5px;
+	margin: 5px;
 }
 
-form.message-form input {
-	display: block;
+form.message-form label, form.message-form input {
+	display: inline;
+}
+
+form.message-form button {
+	background-color: var(--accent1-color);
+	color: white;
+	border-radius: 5px;
 }
 
 form.message-form div {
