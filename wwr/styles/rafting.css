@@ -154,7 +154,8 @@ form.message-form label, form.message-form input {
 	display: inline;
 }
 
-form.message-form button {
+button {
+	padding: 5px;
 	background-color: var(--accent1-color);
 	color: white;
 	border-radius: 5px;
@@ -191,6 +192,8 @@ div.hero article {
 	border: 1px solid var(--accent2-color);
 	border-radius: 5px;
 	box-shadow: 5px 5px 10px var(--accent2-color);
+	display: flex;
+	align-items: center;
 }
 
 div.hero article img {
