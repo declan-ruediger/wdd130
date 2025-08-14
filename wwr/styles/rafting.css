@@ -235,19 +235,58 @@ section.history div img {
 
 .center-children {
 	display: flex;
+	flex-direction: row;
 	justify-content: center;
+}
+
+.trip-info-flex {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+div.featured-trips-box {
+	width: 550px;
+}
+
+.rounded-background-box {
+	margin: 10px;
+	padding: 20px;
+	margin-top: 50px;
+	background-color: var(--isabelline);
+	border-radius: 20px;
+	border: 2px solid var(--accent1-color);
+	/* text-align: center; */
+}
+
+table {
+	margin-top: 50px;
+	background-color: var(--isabelline);
+	border: 2px solid var(--accent1-color);
+	border-collapse: collapse;
+}
+
+table tr th, table tr td {
+	border: 1px solid var(--accent1-color);
+	margin: 0;
+	padding: 5px;
+}
+
+table tr th {
+	background-color: var(--accent1-color);
+	color: white;
 }
 
 div.info-grid {
 	display: grid;
 	grid-template: 1fr 1fr / 1fr 1fr;
-	width: 75%;
+	width: 500px;
 	max-width: 600px;
 	max-height: 500px;
 }
 
 div.info-grid * {
-	margin: 20px;
+	margin: 10px;
 	padding: 5px;
 	font-size: 20px;
 }
