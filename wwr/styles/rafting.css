@@ -169,6 +169,11 @@ button {
 	font-size: 17px;
 }
 
+button a {
+	color: white;
+	text-decoration: none;
+}
+
 form.message-form div {
 	display: flex;
 	align-items: center;
