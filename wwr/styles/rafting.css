@@ -145,6 +145,11 @@ form.message-form * {
 	margin: 5px;
 }
 
+form.message-form div {
+	display: flex;
+	flex-wrap: wrap;
+}
+
 input.radio-input {
 	--size:15px;
 	width: var(--size);
@@ -237,6 +242,8 @@ div.info-grid {
 	display: grid;
 	grid-template: 1fr 1fr / 1fr 1fr;
 	width: 75%;
+	max-width: 600px;
+	max-height: 500px;
 }
 
 div.info-grid * {
@@ -246,7 +253,7 @@ div.info-grid * {
 }
 
 div.info-grid img {
-	height: 160px;
+	width: 90%;
 	box-shadow: 5px 5px 10px var(--accent2-color);
 }
 
