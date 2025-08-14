@@ -122,8 +122,9 @@ div.employee-quotes span img {
 	margin: var(--margin);
 }
 
-div.employee-quotes span p {
+div.employee-quotes span span {
 	width: 100%;
+	display: block;
 	text-align: center;
 	padding: var(--padding);
 	margin: var(--margin);
