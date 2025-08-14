@@ -156,6 +156,7 @@ form.message-form label, form.message-form input {
 
 button {
 	padding: 5px;
+	margin: 5px;
 	background-color: var(--accent1-color);
 	color: white;
 	border-radius: 5px;
@@ -223,6 +224,28 @@ section.history div img {
 
 	margin: 16px;
 	padding: 8px;
+}
+
+.center-children {
+	display: flex;
+	justify-content: center;
+}
+
+div.info-grid {
+	display: grid;
+	grid-template: 1fr 1fr / 1fr 1fr;
+	width: 75%;
+}
+
+div.info-grid * {
+	margin: 20px;
+	padding: 5px;
+	font-size: 20px;
+}
+
+div.info-grid img {
+	height: 160px;
+	box-shadow: 5px 5px 10px var(--accent2-color);
 }
 
 footer {
